@@ -30,3 +30,23 @@ bills[i] es 5, 10, or 20.
 
 **Memory**
 ![Memory — Lemonade Change](evidencias/LemonadeChangeMemory.png)
+
+# 455. Assign Cookies
+
+**Enlace al problema:** https://leetcode.com/problems/assign-cookies/
+
+**criterio greedy:** Criterio de Selección por Menor Tamaño de Recurso Suficiente
+
+## Enunciado
+
+"Asume que eres un padre fantástico y quieres darles algunas galletas a tus hijos. Pero debes darle a cada niño como máximo una galleta.
+
+Cada niño i tiene un factor de codicia g[i], el cual es el tamaño mínimo de una galleta con el que el niño estará contento; y cada galleta j tiene un tamaño s[j]. Si s[j] >= g[i], podemos asignarle la galleta j al niño i, y el niño i estará contento. Tu objetivo es maximizar el número de hijos contentos y devolver ese número máximo."
+
+## Evidencias
+
+**Runtime**
+![Runtime — Lemonade Change](evidencias/assingCookiesRuntime.png)
+
+**Memory**
+![Memory — Lemonade Change](evidencias/assingCookiesMemory.png)
